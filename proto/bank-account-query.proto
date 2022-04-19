@@ -8,7 +8,7 @@ service BankAccountQueryService {
 
 // FindAccount
 
-message FindAccountRequest { string accountId = 1; }
+message FindAccountRequest { string id = 1; }
 
 message FindAccountResponse {
   int32 status = 1;
