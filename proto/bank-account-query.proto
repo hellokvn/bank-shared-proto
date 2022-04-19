@@ -13,5 +13,5 @@ message FindAccountRequest { string accountId = 1; }
 message FindAccountResponse {
   int32 status = 1;
   repeated string error = 2;
-  int32 id = 3;
+  string id = 3;
 }
