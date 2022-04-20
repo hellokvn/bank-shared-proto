@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package bank_account_command;
 
+option go_package = "./";
+
 service BankAccountCommandService {
   rpc OpenAccount(OpenAccountRequest) returns (OpenAccountResponse) {}
   rpc CloseAccount(CloseAccountRequest) returns (CloseAccountResponse) {}

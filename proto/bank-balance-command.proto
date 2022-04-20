@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package bank_balance_command;
 
+option go_package = "./";
+
 service BankBalanceCommandService {
   rpc DepositFunds(DepositFundsRequest) returns (DepositFundsResponse) {}
   rpc WithdrawFunds(WithdrawFundsRequest) returns (WithdrawFundsResponse) {}
