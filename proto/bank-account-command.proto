@@ -15,7 +15,8 @@ message OpenAccountRequest {
   string firstName = 1;
   string lastName = 2;
   string type = 3;
-  int32 openingBalance = 4;
+  string email = 4;
+  int32 openingBalance = 5;
 }
 
 message OpenAccountResponse {
