@@ -12,11 +12,10 @@ service BankAccountCommandService {
 // OpenAccount
 
 message OpenAccountRequest {
-  string firstName = 1;
-  string lastName = 2;
-  string type = 3;
-  string email = 4;
-  int32 openingBalance = 5;
+  string holder = 1;
+  string type = 2;
+  string email = 3;
+  int32 openingBalance = 4;
 }
 
 message OpenAccountResponse {
